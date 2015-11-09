@@ -1,6 +1,6 @@
 {
   "name": "pandit",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Minimal authorization for Node.js inspired by Pundit",
   "main": "lib/index.js",
   "scripts": {
