@@ -1,0 +1,32 @@
+{
+  "name": "pandit",
+  "version": "0.1.0",
+  "description": "Minimal authorization for Node.js inspired by Pundit",
+  "main": "src/index.js",
+  "scripts": {
+    "lint": "standard",
+    "cover": "istanbul cover ./node_modules/mocha/bin/_mocha",
+    "check-coverage": "istanbul check-coverage --statements 100 --functions 100 --branches 100 --lines 100",
+    "test": "npm run lint && npm run cover && npm run check-coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bkon-connect/pandit.git"
+  },
+  "keywords": [
+    "authorization"
+  ],
+  "author": "BKON Connect, Inc <developers@bkon.com> (https://bkon.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bkon-connect/pandit/issues"
+  },
+  "homepage": "https://github.com/bkon-connect/pandit#readme",
+  "devDependencies": {
+    "chai": "^3.4.0",
+    "coveralls": "^2.11.4",
+    "istanbul": "^0.4.0",
+    "mocha": "^2.3.3",
+    "standard": "^5.3.1"
+  }
+}
