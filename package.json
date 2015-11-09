@@ -2,7 +2,7 @@
   "name": "pandit",
   "version": "0.1.0",
   "description": "Minimal authorization for Node.js inspired by Pundit",
-  "main": "src/index.js",
+  "main": "lib/index.js",
   "scripts": {
     "lint": "standard",
     "cover": "istanbul cover ./node_modules/mocha/bin/_mocha",
