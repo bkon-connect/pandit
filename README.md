@@ -308,6 +308,7 @@ app.use(function (req, res, next) {
 To determine the appropriate policy for a record, record class or scope, the default policy finder attempts to find the name of the record type by looking in a few predefined places:
 
 * `object.policyClass` - Explicitly set policy for a record class
+* `object.model.policyClass` - For [Mongoose](http://mongoosejs.com) models to be explicitly set
 * `object.constructor.policyClass` - Explicitly set policy for a record instance
 * `object.modelName` - For [Mongoose](http://mongoosejs.com) models
 * `object.model.modelName` - For [Mongoose](http://mongoosejs.com) queries

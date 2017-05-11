@@ -98,6 +98,11 @@ describe('Pandit PolicyFinder', function () {
       expect(finder.find()).to.equal('found')
     })
 
+    it('should return the `policyClass` property of the model if present', function () {
+      var finder = new PolicyFinder({model: {policyClass: 'found'}})
+      expect(finder.find()).to.equal('found')
+    })
+
     it('should return the `policyClass` property of the object\'s constructor if present', function () {
       var finder = new PolicyFinder({constructor: {policyClass: 'found'}})
       expect(finder.find()).to.equal('found')
